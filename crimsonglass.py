@@ -8,7 +8,7 @@ import colorama
 from colorama import Fore, Back, Style
 
 system.cwd = str(Path.home())
-os.system('clear')
+cfg.clear()
 print(Fore.RED + "CrimsonGlass vOS " + Fore.GREEN + "(" + cfg.VERSION + ")")
 
 while True:
